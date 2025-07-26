@@ -1,58 +1,58 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Door Phone Upgrade",
+    subtitle: "ESP32-CAM + NXP",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Thesis project integrating an ESP32-CAM and NXP microcontroller to modernize intercom systems with image capture and remote door control.",
+    image: "./APEI.webp",
+    link: "https://www.youtube.com/watch?v=LjNqvOdNRxU",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "IoT LED Panel",
+    subtitle: "ESP32 + Wifi",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
+      "Custom-made LED panel controlled via web interface for art studios and creative spaces. Designed hardware and firmware. Under Construction. 🚧",
+    image: "./LED.png",
+    link: "https://hunzaemb.github.io/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Temperature & Humidity Monitor",
+    subtitle: "STM32 + BME280 sensor + LCD + UART",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
+      "Simple embeded systems project that reads temperature and humidity using sensor and displays the data via UART and LCD. Developed using STM32 HAL",
+    image: "./BME280.webp",
+    link: "https://github.com/hollerller/PdM-tp_DT",
+  },
+   {
+    title: "Numerically Controlled Oscillator (NCO)",
+    subtitle: "FPGA - Cortex-A9 + VHDL",
+    description:
+      "Implementation of an NCO (Numerically Controlled Oscillator) on an FPGA, controlled by a Cortex-A9 processor. This project demonstrates integration between embedded software and digital logic for signal generation.",
+    image: "./NCO_FPGA.png",
+    link: "https://github.com/hollerller/MyS_tp_FPGA",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "1-Digit BCD Counter with Enable Generator",
+    subtitle: "FPGA - VHDL",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+      "A BCD counter implemented on FPGA using VHDL. Includes a clock divider and enable signal generator to control counting behavior. Designed and simulated with Vivado and ModelSim.",
+    image: "./BDC_FPGA.png",
+    link: "https://youtu.be/OpqlKncYUZQ",
   },
+   
 ];
 
 export const skills = [
-  "React",
-  "Node.js",
-  "Tailwind CSS",
-  "MongoDB",
-  "Express",
-  "PostgreSQL",
-  "ESP32",
-  "STM32",
-  "UART / SPI / I2C",
+  "C (Embedded)",
+  "STM32 / NXP Microcontrollers",
   "FreeRTOS",
-];
-
-export const experiences = [
-   {
-    title: "Customer Support Agent",
-    company: "Treble.ai",
-    period: "2022 - Presente",
-    description:
-      "",
-    tech: ["PostgreSQL, AWS, APIs, Automatizaciones"],
-  }
+  "ESP32",
+  "Git", 
+  "Express",
+  "Javascript / Node.Js",
+  "Python",
+  "PostgreSQL",
+  "AWS (Cloudwatch)",
+  "Linux / MacOS / Windows",
+   "Kicad / Altium Designer",
 ];

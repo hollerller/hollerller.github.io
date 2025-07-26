@@ -12,9 +12,10 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+            Focused on embedded systems develpment, C programming, and microcontroller integration 
+            (STM32, ESP32, NXP). and real time applications.
+            <br /><br />
+            Skilled in backend tools like Node.js and PostgreSQL, with experience using Git, REST APIs and cloud platforms such as AWS.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
