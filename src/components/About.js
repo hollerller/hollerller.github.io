@@ -11,7 +11,7 @@ export default function About() {
           <p className="mb-8 leading-relaxed">
             Electronic Engineer from Universidad Nacional de Colombia. For over five years, I've been working in
             IT support, systems auditing and operations - learning how to solve problems under pressure, thinking about how
-            to improve processes and keep things running smoothly. Currently working as Technical Support at Treble.ai.
+            to improve processes and keep things running smoothly. Currently working as Junior Software Engineer at Treble.ai.
              <br /><br />
             I've always enjoyed tech, but recently, I've found myself more drawn to code. Now, I'm developing projects
             involving microcontrollers, C programming and real time systems. To sharpen these skills, I'm currently 
