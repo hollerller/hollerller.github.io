@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>David Tobasura</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<title>David Tobasura</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+    <section id="about">
+        <div class="about">
+            <h1>David Tobasura</h1>
+            <h2>Embedded Systems Engineer. Firmware, IoT & real-time systems. Also fluent in full stack web.</h2>
+            <p>Electronic Engineer from Universidad Nacional de Colombia, with a specialization in Embedded Systems from
+                Universidad de Buenos Aires.
+            </p>
+            <p>I design and build low-power embedded systems using Zephyr RTOS, nRF52840,
+                ESP32 and NXP microcontrollers, and develop full-stack applications with React, TypeScript and Node.js
+                to
+                support real world connected products.</p>
+            <p>
+                Currently building AirNode, an open-source environmental IoT sensor.</p>
+            <p>
+                Open to new opportunities and interesting projects. Feel free to reach out.</p>
+            <div class="about-button">
+                <a class="btn-primary" href="#contact">Contact me</a>
+                <a class="btn-secondary" href="#projects">See my work</a>
+            </div>
+        </div>
+        <div class="profile-pic">
+            <img src="public/profile.jpg" alt="profile">
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h2>Airnode</h2>
+            <p class="stack">Stack: Zephyr RTOS, nRF52840, React Native, MQTT</p>
+            <p>Low-power environmental sensor that measures air quality in real time and streams data via Bluetooth and
+                MQTT
+                over WiFi. Designed as a complete end-to-end IoT project, from embedded firmware to a cross-platform
+                cloud-connected app.</p>
+            <a href="https://github.com/hollerller/airnode">GitHub</a>
+        </div>
+        <div class="project-card">
+            <h2>Door Phone Upgrade</h2>
+            <p class="stack">Stack: FreeRTOS, ESP32-CAM, NXP, UART, MQTT, WiFI</p>
+            <p>Thesis project integrating an ESP32-CAM and NXP microcontroller to modernize intercom systems with image
+                capture and remote door control.
+            </p>
+            <a href="https://www.youtube.com/watch?v=LjNqvOdNRxU">Youtube Demo</a>
+        </div>
+        <div class="project-card">
+            <h2>NCO in FPGA</h2>
+            <p class="stack">Stack: FPGA, Cortex-A9, VHDL</p>
+            <p>Implementation of a Numerically Controlled Oscillator on an FPGA, controlled by a Cortex-A9 processor.
+                Demonstrates integration between embedded software and digital logic for signal generation.</p>
+            <a href="https://github.com/hollerller/MyS_tp_FPGA">GitHub</a>
+        </div>
+        <div class="project-card">
+            <h2>Temperature & Humidity Monitor</h2>
+            <p class="stack">Stack: STM32, BME280, UART, LCD</p>
+            <p>Reads temperature and humidity using a BME280 sensor and displays data via UART and LCD. Developed using
+                STM32 HAL.</p>
+            <a href="https://github.com/hollerller/PdM-tp_DT">GitHub</a>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Embedded</h3>
+        <ul>
+            <li>C</li>
+            <li>Zephyr RTOS</li>
+            <li>FreeRTOS</li>
+            <li>nRF52840</li>
+            <li>ESP32</li>
+            <li>STM32</li>
+            <li>NXP</li>
+            <li>BLE</li>
+        </ul>
+        <h3>Protocols</h3>
+        <ul>
+            <li>I2C</li>
+            <li>UART</li>
+            <li>MQTT</li>
+            <li>WiFi</li>
+            <li>HTTP/REST</li>
+        </ul>
+        <h3>Full-Stack</h3>
+        <ul>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Node.js</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>PostgreSQL</li>
+            <li>Tailwind CSS</li>
+        </ul>
+        <h3>Tools</h3>
+        <ul>
+            <li>Git</li>
+            <li>Linux </li>
+            <li>KiCad / Altium Designer</li>
+        </ul>
+
+    </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <h2>Treble.ai — Software Engineer
+        </h2>
+        <p class="date">Oct 2025 - Present</p>
+        <p>Part of the core improvements team, making enhancements across the platform.</p>
+        <p>Implementing new Whatsapp message types including carousel templates, handling backend, frontend, Meta API
+            integration and webhook processing.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <h3>Whether it's an embedded project or just a conversation — feel free to reach out! </h3>
+        <div class="contact-link"> <a href="mailto:david.tobasura@gmail.com">
+                Contact Me
+            </a>
+            <a href="https://www.linkedin.com/in/david-tobasura" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+            </a>
+        </div>
+
+    </section>
+</body>
+
+</html>
